@@ -29,8 +29,8 @@
 
   ```shell
   $git clone https://github.com/dracula/zsh.git
-  $cp zsh/dracula.zsh-theme /Users/{Username}/.oh-my-zsh/themes/dracula.zsh-theme
-  $cp -r zsh/lib /Users/{Username}/.oh-my-zsh/themes/lib
+  $cp zsh/dracula.zsh-theme ~/.oh-my-zsh/themes/dracula.zsh-theme
+  $cp -r zsh/lib ~/.oh-my-zsh/themes/lib
   ```
 
   ```shell
@@ -42,15 +42,18 @@
 * plugin
 
   ```shell
+  $ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+  $ git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
+  
   $vim ~/.zshrc
   ...
   plugins=(
     git
     zsh-syntax-highlighting
-    zsh-autosuggestions
+  zsh-autosuggestions
   )
   ```
-
+  
   
 
 ## iterm2
