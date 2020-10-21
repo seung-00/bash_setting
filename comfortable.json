@@ -1,10 +1,10 @@
 {
   "Ansi 6 Color" : {
-    "Red Component" : 0.1518461387604475,
+    "Red Component" : 0.14901960784313725,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.56543660379520588,
+    "Blue Component" : 0.56470588235294117,
     "Alpha Component" : 1,
-    "Green Component" : 0.74542236328125
+    "Green Component" : 0.74509803921568629
   },
   "Tags" : [
 
@@ -62,11 +62,11 @@
   "Non-ASCII Anti Aliased" : true,
   "Use Bright Bold" : true,
   "Ansi 10 Color" : {
-    "Red Component" : 0.59903319925069809,
+    "Red Component" : 0.44313725490196076,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.61233455286028171,
+    "Blue Component" : 0.45882352941176469,
     "Alpha Component" : 1,
-    "Green Component" : 0.85205078125
+    "Green Component" : 0.7803921568627451
   },
   "Use Cursor Guide" : false,
   "Ambiguous Double Width" : false,
@@ -84,11 +84,11 @@
     "Green Component" : 1
   },
   "Foreground Color" : {
-    "Red Component" : 0.4472351367585361,
+    "Red Component" : 0.8282470703125,
     "Color Space" : "sRGB",
-    "Blue Component" : 0.58229436031406412,
+    "Blue Component" : 0.8282470703125,
     "Alpha Component" : 1,
-    "Green Component" : 0.740020751953125
+    "Green Component" : 0.8282470703125
   },
   "Working Directory" : "\/Users\/seungyoungoh",
   "Blinking Cursor" : false,
@@ -98,6 +98,7 @@
   "BM Growl" : true,
   "Command" : "",
   "Description" : "Default",
+  "Smart Cursor Color" : true,
   "Mouse Reporting" : true,
   "Screen" : -1,
   "Selection Color" : {
