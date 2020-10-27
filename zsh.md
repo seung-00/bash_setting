@@ -33,23 +33,29 @@
 * `$ vim ~/.oh-my-zsh/themes/agnoster.zsh-theme`
 
   ```shell
-   prompt_context() {
-     if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-       now="$(date +"%I")"
-       if [ $now -ge 0 -a $now -lt 6 ]; then
+  prompt_context() {
+  	if [[ "$USER" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
+    	now="$(date +"%H")"
+      if [ ${now} -ge 0 -a ${now} -lt 6 ]; then
         emoji="☕️"
-       fi
-       if [ $now -ge 6 -a $now -lt 12 ]; then
+      fi
+      if [ ${now} -ge 6 -a ${now} -lt 10 ]; then
         emoji="🍳"
-       fi
-       if [ ${now} -ge 12 -a ${now} -lt 17 ]; then
-        emoji="🌳"
-       fi
-       if [ ${now} -ge 17 -a ${now} -lt 23 ]; then
-        emoji="🌃"
-       fi
+      fi
+      if [ ${now} -ge 10 -a ${now} -lt 13 ]; then
+      emoji="🌳"
+     	fi
+     	if [ ${now} -ge 13 -a ${now} -lt 17 ]; then
+        emoji="🏙 "
+  		fi
+      if [ ${now} -ge 17 -a ${now} -lt 19 ]; then
+       emoji="🌆"
+      fi
+      if [ ${now} -ge 19 -a ${now} -lt 24 ]; then
+       emoji="🌃"
+      fi
   
        prompt_segment black default "${emoji}"
-     fi
+    fi
   }
   ```
